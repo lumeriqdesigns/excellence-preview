@@ -1,0 +1,263 @@
+{
+  "FINANCIAL ACCOUNTING": {
+    "count": 2721,
+    "original_count": 14285,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/financial-accounting/001.json",
+      "bank/financial-accounting/002.json",
+      "bank/financial-accounting/003.json",
+      "bank/financial-accounting/004.json",
+      "bank/financial-accounting/005.json",
+      "bank/financial-accounting/006.json"
+    ]
+  },
+  "FURTHER MATHEMATICS": {
+    "count": 10012,
+    "original_count": 14285,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/further-mathematics/001.json",
+      "bank/further-mathematics/002.json",
+      "bank/further-mathematics/003.json",
+      "bank/further-mathematics/004.json",
+      "bank/further-mathematics/005.json",
+      "bank/further-mathematics/006.json",
+      "bank/further-mathematics/007.json",
+      "bank/further-mathematics/008.json",
+      "bank/further-mathematics/009.json",
+      "bank/further-mathematics/010.json",
+      "bank/further-mathematics/011.json",
+      "bank/further-mathematics/012.json",
+      "bank/further-mathematics/013.json",
+      "bank/further-mathematics/014.json",
+      "bank/further-mathematics/015.json",
+      "bank/further-mathematics/016.json",
+      "bank/further-mathematics/017.json",
+      "bank/further-mathematics/018.json",
+      "bank/further-mathematics/019.json",
+      "bank/further-mathematics/020.json",
+      "bank/further-mathematics/021.json"
+    ]
+  },
+  "USE OF ENGLISH": {
+    "count": 4178,
+    "original_count": 14286,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/use-of-english/001.json",
+      "bank/use-of-english/002.json",
+      "bank/use-of-english/003.json",
+      "bank/use-of-english/004.json",
+      "bank/use-of-english/005.json",
+      "bank/use-of-english/006.json",
+      "bank/use-of-english/007.json",
+      "bank/use-of-english/008.json",
+      "bank/use-of-english/009.json"
+    ]
+  },
+  "PHYSICS": {
+    "count": 13761,
+    "original_count": 14293,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/physics/001.json",
+      "bank/physics/002.json",
+      "bank/physics/003.json",
+      "bank/physics/004.json",
+      "bank/physics/005.json",
+      "bank/physics/006.json",
+      "bank/physics/007.json",
+      "bank/physics/008.json",
+      "bank/physics/009.json",
+      "bank/physics/010.json",
+      "bank/physics/011.json",
+      "bank/physics/012.json",
+      "bank/physics/013.json",
+      "bank/physics/014.json",
+      "bank/physics/015.json",
+      "bank/physics/016.json",
+      "bank/physics/017.json",
+      "bank/physics/018.json",
+      "bank/physics/019.json",
+      "bank/physics/020.json",
+      "bank/physics/021.json",
+      "bank/physics/022.json",
+      "bank/physics/023.json",
+      "bank/physics/024.json",
+      "bank/physics/025.json",
+      "bank/physics/026.json",
+      "bank/physics/027.json",
+      "bank/physics/028.json"
+    ]
+  },
+  "ECONOMICS": {
+    "count": 3741,
+    "original_count": 14286,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/economics/001.json",
+      "bank/economics/002.json",
+      "bank/economics/003.json",
+      "bank/economics/004.json",
+      "bank/economics/005.json",
+      "bank/economics/006.json",
+      "bank/economics/007.json",
+      "bank/economics/008.json"
+    ]
+  },
+  "IRS": {
+    "count": 2693,
+    "original_count": 14285,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/irs/001.json",
+      "bank/irs/002.json",
+      "bank/irs/003.json",
+      "bank/irs/004.json",
+      "bank/irs/005.json",
+      "bank/irs/006.json"
+    ]
+  },
+  "CHEMISTRY": {
+    "count": 10515,
+    "original_count": 14285,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/chemistry/001.json",
+      "bank/chemistry/002.json",
+      "bank/chemistry/003.json",
+      "bank/chemistry/004.json",
+      "bank/chemistry/005.json",
+      "bank/chemistry/006.json",
+      "bank/chemistry/007.json",
+      "bank/chemistry/008.json",
+      "bank/chemistry/009.json",
+      "bank/chemistry/010.json",
+      "bank/chemistry/011.json",
+      "bank/chemistry/012.json",
+      "bank/chemistry/013.json",
+      "bank/chemistry/014.json",
+      "bank/chemistry/015.json",
+      "bank/chemistry/016.json",
+      "bank/chemistry/017.json",
+      "bank/chemistry/018.json",
+      "bank/chemistry/019.json",
+      "bank/chemistry/020.json",
+      "bank/chemistry/021.json",
+      "bank/chemistry/022.json"
+    ]
+  },
+  "AGRICULTURAL SCIENCE": {
+    "count": 2539,
+    "original_count": 14285,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/agricultural-science/001.json",
+      "bank/agricultural-science/002.json",
+      "bank/agricultural-science/003.json",
+      "bank/agricultural-science/004.json",
+      "bank/agricultural-science/005.json",
+      "bank/agricultural-science/006.json"
+    ]
+  },
+  "GOVERNMENT": {
+    "count": 2502,
+    "original_count": 14285,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/government/001.json",
+      "bank/government/002.json",
+      "bank/government/003.json",
+      "bank/government/004.json",
+      "bank/government/005.json",
+      "bank/government/006.json"
+    ]
+  },
+  "COMMERCE": {
+    "count": 2625,
+    "original_count": 14285,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/commerce/001.json",
+      "bank/commerce/002.json",
+      "bank/commerce/003.json",
+      "bank/commerce/004.json",
+      "bank/commerce/005.json",
+      "bank/commerce/006.json"
+    ]
+  },
+  "BIOLOGY": {
+    "count": 2613,
+    "original_count": 14285,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/biology/001.json",
+      "bank/biology/002.json",
+      "bank/biology/003.json",
+      "bank/biology/004.json",
+      "bank/biology/005.json",
+      "bank/biology/006.json"
+    ]
+  },
+  "MATHEMATICS": {
+    "count": 12799,
+    "original_count": 14285,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/mathematics/001.json",
+      "bank/mathematics/002.json",
+      "bank/mathematics/003.json",
+      "bank/mathematics/004.json",
+      "bank/mathematics/005.json",
+      "bank/mathematics/006.json",
+      "bank/mathematics/007.json",
+      "bank/mathematics/008.json",
+      "bank/mathematics/009.json",
+      "bank/mathematics/010.json",
+      "bank/mathematics/011.json",
+      "bank/mathematics/012.json",
+      "bank/mathematics/013.json",
+      "bank/mathematics/014.json",
+      "bank/mathematics/015.json",
+      "bank/mathematics/016.json",
+      "bank/mathematics/017.json",
+      "bank/mathematics/018.json",
+      "bank/mathematics/019.json",
+      "bank/mathematics/020.json",
+      "bank/mathematics/021.json",
+      "bank/mathematics/022.json",
+      "bank/mathematics/023.json",
+      "bank/mathematics/024.json",
+      "bank/mathematics/025.json",
+      "bank/mathematics/026.json"
+    ]
+  },
+  "CRK": {
+    "count": 2599,
+    "original_count": 14285,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/crk/001.json",
+      "bank/crk/002.json",
+      "bank/crk/003.json",
+      "bank/crk/004.json",
+      "bank/crk/005.json",
+      "bank/crk/006.json"
+    ]
+  },
+  "LITERATURE-IN-ENGLISH": {
+    "count": 3075,
+    "original_count": 14285,
+    "chunk_size": 500,
+    "chunks": [
+      "bank/literature-in-english/001.json",
+      "bank/literature-in-english/002.json",
+      "bank/literature-in-english/003.json",
+      "bank/literature-in-english/004.json",
+      "bank/literature-in-english/005.json",
+      "bank/literature-in-english/006.json",
+      "bank/literature-in-english/007.json"
+    ]
+  }
+}

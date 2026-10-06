@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#0d47a1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="MeritScholars">
+
+<!-- Primary SEO -->
+<title>MeritScholars CBT — Free JAMB &amp; WAEC Practice Tests for Nigerian Students</title>
+<meta name="description" content="Practice JAMB UTME and WAEC CBT online for free. 76,000+ practice questions, timed mock exams, progress analytics, leaderboard, and AI tutor for Nigerian secondary students.">
+<meta name="keywords" content="JAMB CBT, WAEC CBT, UTME practice, WASSCE past questions, JAMB mock exam, WAEC practice test, Nigerian students, CBT exam, free JAMB practice, MeritScholars">
+<meta name="author" content="MeritScholars">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://meritscholars.vercel.app/">
+
+<!-- Open Graph / Facebook / WhatsApp -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://meritscholars.vercel.app/">
+<meta property="og:title" content="MeritScholars CBT — Free JAMB &amp; WAEC Practice Tests">
+<meta property="og:description" content="Timed JAMB &amp; WAEC CBT practice with 76,000 questions, progress tracking, and AI tutor for Nigerian students. Free to start.">
+<meta property="og:image" content="https://meritscholars.vercel.app/icon-512.png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta property="og:locale" content="en_NG">
+<meta property="og:site_name" content="MeritScholars CBT">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MeritScholars CBT — Free JAMB &amp; WAEC Practice">
+<meta name="twitter:description" content="Practice JAMB UTME and WAEC CBT online. 76,000 questions, timed mocks, analytics &amp; AI tutor for Nigerian students.">
+<meta name="twitter:image" content="https://meritscholars.vercel.app/icon-512.png">
+
+<!-- PWA / Icons -->
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+
+<!-- Performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<!-- Structured data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "MeritScholars CBT",
+  "alternateName": "MeritScholars",
+  "url": "https://meritscholars.vercel.app/",
+  "description": "Free JAMB UTME and WAEC CBT practice platform for Nigerian secondary school students. 76,000+ practice questions, timed mock exams, progress analytics, and AI tutor.",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "NGN",
+    "description": "Free plan available; Premium one-time unlock"
+  },
+  "audience": {
+    "@type": "EducationalAudience",
+    "educationalRole": "student",
+    "geographicArea": "Nigeria"
+  },
+  "inLanguage": "en",
+  "keywords": "JAMB, WAEC, CBT, UTME, WASSCE, practice test, Nigeria"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is MeritScholars CBT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MeritScholars CBT is a free online practice platform for Nigerian secondary school students preparing for JAMB UTME and WAEC (WASSCE). It offers timed computer-based tests, a bank of 76,000+ practice questions, progress analytics, a leaderboard, and an AI tutor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is MeritScholars free for JAMB and WAEC practice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can start free with limited questions per test. Premium preview access is free and unlocks the full question bank. No payment or subscription is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I practise JAMB CBT online?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open MeritScholars, choose JAMB Practice or the Custom CBT Simulator, select up to four subjects, set the number of questions, and start a timed mock exam that follows UTME-style CBT format."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does MeritScholars have WAEC past questions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The question bank includes WAEC (WASSCE) objective-style practice across major subjects. You can filter by exam type, subject, and topic, then review scores and weak areas in Progress Analytics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which subjects can I practise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Subjects include Use of English, Mathematics, Further Mathematics, Physics, Chemistry, Biology, Government, Economics, Literature-in-English, Commerce, Financial Accounting, Agricultural Science, CRK, and IRS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Merit AI Tutor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The CBT question bank works without an AI subscription. Merit AI is disabled in this public preview."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use MeritScholars offline?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MeritScholars is a Progressive Web App (PWA). After you open the site and install it to your home screen, much of the practice experience can work offline once question data has been loaded."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Premium work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Premium preview access is free. No payment is required."
+      }
+    }
+  ]
+}
+</script>
+
+<script src="config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+<!-- TOP BAR -->
+<header class="topbar">
+  <div class="topbar-left">
+    <button type="button" class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+    <div class="brand">
+      <img src="logo.png" alt="MeritScholars logo" class="logo" width="36" height="36">
+      <div class="brand-text">
+        <h1>MeritScholars</h1>
+              </div>
+    </div>
+  </div>
+  <div class="search-wrap">
+    <span class="search-ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></span>
+    <input type="search" id="globalSearch" placeholder="Search subjects, topics…" autocomplete="off">
+  </div>
+  <div class="topbar-right">
+    <button type="button" class="icon-btn" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">
+      <svg class="theme-ico theme-ico-moon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 14.3A9 9 0 1 1 9.7 3 7 7 0 0 0 21 14.3z"/></svg>
+      <svg class="theme-ico theme-ico-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" hidden><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+    </button>
+    <span class="badge" id="planBadge">Free</span>
+    <button type="button" class="btn-outline btn-header-login" id="btnHeaderLogin">Log In</button>
+    <button type="button" class="btn-dark btn-header-signup" id="btnHeaderSignup"><span class="signup-full">Create Account</span><span class="signup-short">Sign up</span></button>
+  </div>
+</header>
+
+<div class="app-shell">
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <nav class="side-nav">
+      <button type="button" class="side-item on" data-go="home"><span class="ic">🏠</span><span>Home</span></button>
+      <button type="button" class="side-item" data-go="test"><span class="ic">💻</span><span>Test</span></button>
+      <button type="button" class="side-item" data-go="bank"><span class="ic">📚</span><span>Bank</span></button>
+      <button type="button" class="side-item" data-go="analytics"><span class="ic">📊</span><span>Progress</span></button>
+      <button type="button" class="side-item" data-go="leaderboard"><span class="ic">🏆</span><span>Leaderboard</span></button>
+      <button type="button" class="side-item" data-go="tutor"><span class="ic">🤖</span><span>AI Tutor</span></button>
+      <button type="button" class="side-item" data-go="premium"><span class="ic">⭐</span><span>Premium</span></button>
+      <button type="button" class="side-item" data-go="account"><span class="ic">👤</span><span>Account</span></button>
+      <button type="button" class="side-item" data-go="support"><span class="ic">❓</span><span>Help</span></button>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <div id="loadBar" class="banner load">Loading full question bank…</div>
+    <div id="renewBanner" class="banner renew-banner"></div>
+    <div id="installBanner" class="banner">Web app install available on supported browsers. <strong>APK version coming soon.</strong> <button class="bp sm" id="installBtn">Install web app</button></div>
+
+    <!-- HOME -->
+    <div id="home" class="screen active">
+      <div class="home-grid">
+        <div class="home-main">
+          <div class="hero-card">
+            <div class="hero-glow" aria-hidden="true"></div>
+            <div class="hero-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="hero-copy">
+              <p class="eyebrow">Exam preparation platform</p>
+              <h2>Practice CBT with confidence</h2>
+              <p>Structured practice for <strong>JAMB</strong> and <strong>WAEC</strong> — timed simulations, detailed feedback, and progress analytics built for Nigerian secondary students.</p>
+              <div class="hero-tags">
+                <span class="htag">JAMB</span>
+                <span class="htag">WAEC</span>
+                <span class="htag">76,000 questions</span>
+                <span class="htag">Analytics</span>
+              </div>
+            </div>
+          </div>
+          <div class="action-row">
+            <button type="button" class="pill" id="btnShare">Share</button>
+            <button type="button" class="pill" id="btnCopyLink">Copy link</button>
+            <button type="button" class="pill accent" id="btnInstallPill">Install app</button>
+          </div>
+
+          <h3 class="block-title">Start practising</h3>
+          <div class="test-cards">
+            <button type="button" class="test-card c-orange" data-exam="ANY">
+              <span class="tc-label">General</span>
+              <span class="tc-title">CBT Simulator</span>
+              <span class="tc-desc">Build a custom timed test for any subject combination.</span>
+            </button>
+            <button type="button" class="test-card c-blue" data-exam="JAMB">
+              <span class="tc-label">UTME</span>
+              <span class="tc-title">JAMB Practice</span>
+              <span class="tc-desc">Multi-subject CBT format aligned with UTME style.</span>
+            </button>
+            <button type="button" class="test-card c-purple" data-exam="WAEC">
+              <span class="tc-label">WASSCE</span>
+              <span class="tc-title">WAEC Practice</span>
+              <span class="tc-desc">Objective practice with instant scoring and explanations.</span>
+            </button>
+            <button type="button" class="test-card c-green" data-go-direct="analytics">
+              <span class="tc-label">Analytics</span>
+              <span class="tc-title">My Progress</span>
+              <span class="tc-desc">Track scores, weak topics, and attempt history.</span>
+            </button>
+            <button type="button" class="test-card c-teal" data-go-direct="bank">
+              <span class="tc-label">Library</span>
+              <span class="tc-title">Question Bank</span>
+              <span class="tc-desc">Browse questions by exam type and subject.</span>
+            </button>
+          </div>
+        </div>
+
+        <aside class="home-side">
+          <div class="lb-card">
+            <div class="lb-head">
+              <span>Leaderboard</span>
+              <button type="button" class="linkish" data-go="leaderboard">View all</button>
+            </div>
+            <div id="homeLeaderboard" class="lb-list"></div>
+          </div>
+          <div class="progress-mini card-soft" id="homeProgressMini">
+            <h4>Your progress</h4>
+            <p class="muted" id="homeProgressText">Log in to sync progress across devices.</p>
+            <div class="stat-row tight">
+              <div class="stat"><div class="v" id="miniAttempts">0</div><div class="l">Attempts</div></div>
+              <div class="stat"><div class="v" id="miniAvg">0%</div><div class="l">Avg</div></div>
+              <div class="stat"><div class="v" id="miniBest">0%</div><div class="l">Best</div></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- SEO intro + subjects + FAQ (crawlable content) -->
+      <section class="seo-block card-soft" aria-labelledby="seoIntroTitle">
+        <h2 id="seoIntroTitle">Free JAMB &amp; WAEC CBT practice for Nigerian students</h2>
+        <p>
+          MeritScholars is an online <strong>CBT practice platform</strong> built for secondary school students preparing for
+          <strong>JAMB UTME</strong> and <strong>WAEC (WASSCE)</strong>. Take timed mock exams, browse 76,000+ practice questions,
+          track weak topics with progress analytics, compete on the leaderboard, and ask the <strong>Merit AI Tutor</strong> for explanations.
+        </p>
+        <p>
+          Start free in your browser, install the app on your phone, and practise anywhere — including offline after the question bank has loaded.
+          Select <strong>Premium</strong> to unlock the full bank for free in this preview.
+        </p>
+      </section>
+
+      <section class="seo-block card-soft" aria-labelledby="subjectsTitle">
+        <h2 id="subjectsTitle">Subjects you can practise</h2>
+        <p class="muted">Cover core UTME and WASSCE subjects with objective-style CBT questions:</p>
+        <ul class="subject-seo-list">
+          <li>Use of English</li>
+          <li>Mathematics</li>
+          <li>Further Mathematics</li>
+          <li>Physics</li>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Government</li>
+          <li>Economics</li>
+          <li>Literature-in-English</li>
+          <li>Commerce</li>
+          <li>Financial Accounting</li>
+          <li>Agricultural Science</li>
+          <li>CRK</li>
+          <li>IRS</li>
+        </ul>
+      </section>
+
+      <section class="seo-block card faq" aria-labelledby="homeFaqTitle" id="faq">
+        <h2 id="homeFaqTitle">Frequently asked questions</h2>
+        <details>
+          <summary>What is MeritScholars CBT?</summary>
+          <p>MeritScholars CBT is a free online practice platform for Nigerian secondary school students preparing for JAMB UTME and WAEC (WASSCE). It offers timed computer-based tests, a bank of 76,000+ practice questions, progress analytics, a leaderboard, and an AI tutor.</p>
+        </details>
+        <details>
+          <summary>Is MeritScholars free for JAMB and WAEC practice?</summary>
+          <p>Yes. You can start free with limited questions per test. Premium preview access is free and unlocks the full question bank. No payment or subscription is required.</p>
+        </details>
+        <details>
+          <summary>How do I practise JAMB CBT online?</summary>
+          <p>Open MeritScholars, choose <strong>JAMB Practice</strong> or the <strong>Custom CBT Simulator</strong>, select up to four subjects, set the number of questions, and start a timed mock exam that follows UTME-style CBT format.</p>
+        </details>
+        <details>
+          <summary>Does MeritScholars have WAEC past questions?</summary>
+          <p>Yes. The question bank includes WAEC (WASSCE) objective-style practice across major subjects. Filter by exam type, subject, and topic, then review scores and weak areas in Progress Analytics.</p>
+        </details>
+        <details>
+          <summary>Which subjects can I practise?</summary>
+          <p>Use of English, Mathematics, Further Mathematics, Physics, Chemistry, Biology, Government, Economics, Literature-in-English, Commerce, Financial Accounting, Agricultural Science, CRK, and IRS.</p>
+        </details>
+        <details>
+          <summary>What is the Merit AI Tutor?</summary>
+          <p>The CBT question bank works without an AI subscription. Merit AI is disabled in this public preview.</p>
+        </details>
+        <details>
+          <summary>Can I use MeritScholars offline?</summary>
+          <p>MeritScholars is a Progressive Web App (PWA). After you open the site and install it to your home screen, much of the practice experience can work offline once question data has been loaded.</p>
+        </details>
+        <details>
+          <summary>How does Premium work?</summary>
+          <p>Premium preview access is free. No payment is required.</p>
+        </details>
+      </section>
+
+    </div>
+
+    <!-- TEST SETUP -->
+    <div id="test" class="screen">
+      <div class="sim-wrap">
+        <div class="sim-hero">
+          <h2>Custom CBT Simulator</h2>
+          <p id="homeSub">Select subjects, configure your test, then enter the test hall.</p>
+        </div>
+        <div>
+          <div class="section-title"><span class="num">1</span> Set subjects</div>
+          <p class="muted">Max 4 subjects for JAMB-style mock.</p>
+          <div id="grid" class="grid"></div>
+          <p id="selCount">0 selected</p>
+        </div>
+        <div>
+          <div class="section-title"><span class="num">2</span> Configure your CBT</div>
+          <div class="row" style="margin-top:10px">
+            <select id="filterDifficulty"><option value="">All difficulties</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select>
+            <select id="filterYear"><option value="">All years</option></select>
+          </div>
+          <p class="lbl">Exam type</p>
+          <div class="row" id="homeExamChips">
+            <div class="chip on" data-v="ANY">Mixed</div>
+            <div class="chip" data-v="JAMB">JAMB</div>
+            <div class="chip" data-v="WAEC">WAEC</div>
+          </div>
+          <p class="lbl">Test mode</p>
+          <div class="row">
+            <div class="chip on" id="homeModePractice" data-mode="practice">Practice</div>
+            <div class="chip" id="homeModeMock" data-mode="mock">Full exam</div>
+          </div>
+          <p class="lbl">Questions per subject</p>
+          <div class="row" id="homeNumChips"></div>
+          <button class="bp full" id="btnProceedHall">Proceed to test hall →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SETUP (topic) kept for compatibility -->
+    <div id="setup" class="screen">
+      <div class="card">
+        <h2 id="setupTitle">Subject</h2>
+        <p class="lbl">Topic</p>
+        <select id="filterTopic"><option value="">All topics</option></select>
+        <div class="row" id="examChips">
+          <div class="chip on" data-v="ANY">Mixed</div>
+          <div class="chip" data-v="JAMB">JAMB</div>
+          <div class="chip" data-v="WAEC">WAEC</div>
+        </div>
+        <div class="row" id="numChips"></div>
+        <div class="nav"><button class="bo" id="btnBackHome">Back</button><button class="bp" id="btnStart">Start</button></div>
+      </div>
+    </div>
+
+    <!-- QUIZ -->
+    <div id="quiz" class="screen">
+      <div class="sim-wrap">
+        <div class="meta"><span id="qnum" style="font-weight:600;color:var(--p)"></span><span class="timer" id="tmr">10:00</span></div>
+        <div class="bar"><i id="prog"></i></div>
+        <div class="card flat">
+          <div class="qtext" id="qtext"></div>
+          <div id="opts"></div>
+          <button class="bo sm" id="btnFlag">⚑ Flag for review</button>
+        </div>
+        <div class="nav"><button class="bo" id="bpv">Previous</button><button class="bp" id="bnx">Next</button></div>
+      </div>
+    </div>
+
+    <!-- RESULT -->
+    <div id="result" class="screen">
+      <div class="score"><div class="p" id="pct">0%</div><div class="l" id="scor">0/10</div></div>
+      <div class="card" id="topicCard" hidden><h2>Topic performance</h2><div id="topicList"></div></div>
+      <div class="center">
+        <button class="bp" id="btnResHome">Home</button>
+        <button class="bo" id="btnRetry">Retry</button>
+        <button class="bo" id="btnResAnalytics">Progress</button>
+      </div>
+      <div id="rlist"></div>
+    </div>
+
+
+    <!-- QUESTION BANK -->
+    <div id="bank" class="screen">
+      <div class="card">
+        <h2>📚 Question Bank</h2>
+        <p class="muted">Browse practice questions for CBT, JAMB, and WAEC. Select a subject to start.</p>
+        <div class="bank-tabs" id="bankTabs">
+          <button type="button" class="chip on" data-bank="ALL">All CBT</button>
+          <button type="button" class="chip" data-bank="JAMB">JAMB</button>
+          <button type="button" class="chip" data-bank="WAEC">WAEC</button>
+        </div>
+        <div class="stat-row" style="margin-top:12px">
+          <div class="stat"><div class="v" id="bankTotal">0</div><div class="l">Questions</div></div>
+          <div class="stat"><div class="v" id="bankSubjects">0</div><div class="l">Subjects</div></div>
+          <div class="stat"><div class="v" id="bankAttempts">0</div><div class="l">Your attempts</div></div>
+        </div>
+        <p class="muted" id="bankPlanNote" style="margin-top:8px"></p>
+      </div>
+      <div class="card">
+        <h2 id="bankListTitle">Subjects</h2>
+        <div id="bankSubjectList" class="bank-list"></div>
+      </div>
+      <div class="card">
+        <h2>Your progress in this bank</h2>
+        <div id="bankProgress" class="muted">Complete tests to see subject performance here.</div>
+      </div>
+    </div>
+
+    <!-- ANALYTICS -->
+    <div id="analytics" class="screen">
+      <div class="card">
+        <h2>Your progress analytics</h2>
+        <p class="muted">Scores, trends, and weak topics. Syncs when you are logged in.</p>
+        <div class="stat-row">
+          <div class="stat"><div class="v" id="aAttempts">0</div><div class="l">Attempts</div></div>
+          <div class="stat"><div class="v" id="aAvg">0%</div><div class="l">Average</div></div>
+          <div class="stat"><div class="v" id="aBest">0%</div><div class="l">Best</div></div>
+        </div>
+      </div>
+      <div class="card"><h2>Weak topics</h2><div id="weakTopics"></div></div>
+      <div class="card"><h2>Recent scores</h2><div id="scoreTrend"></div></div>
+      <div class="card"><h2>Snapshot</h2><div id="adminStats"></div></div>
+    </div>
+
+    <!-- LEADERBOARD -->
+    <div id="leaderboard" class="screen">
+      <div class="card">
+        <h2>🏆 Leaderboard</h2>
+        <p class="muted">Live top 100 by best score. Rankings update when students finish CBT tests.</p>
+        <div id="fullLeaderboard" class="lb-list tall"></div>
+      </div>
+    </div>
+
+    <!-- PREMIUM -->
+    <div id="premium" class="screen">
+      <div class="paywall">
+        <h3 id="paywallTitle">⭐ Premium — Free Preview</h3>
+        <p>Pay once (₦2,000). Unlock the full question bank (76,000+), up to 50 questions per test, AI tutor disabled in this preview, and analytics for 90 days.</p>
+        <p class="price">FREE <span style="font-size:.85rem;font-weight:500">preview access</span></p>
+        <button class="bgold" id="btnPay">Unlock Premium — FREE</button>
+        <p style="margin-top:10px;opacity:.85;font-size:.8rem">No payment or subscription is required in this preview.</p>
+      </div>
+      <div class="card">
+        <h2>What you get</h2>
+        <ul class="feat-list">
+          <li>Full question bank unlocked (76,000+ unique records)</li>
+          <li>Up to 50 questions per test (Free is limited to 15)</li>
+          <li>Full progress analytics</li>
+          <li>Merit AI is disabled in this public preview</li>
+        </ul>
+        <p class="muted" id="payHint"></p>
+      </div>
+      <div class="card" id="premStatus"></div>
+    </div>
+
+    <!-- ACCOUNT / AUTH -->
+    <div id="account" class="screen">
+      <div class="card auth-card">
+        <h2>Student account</h2>
+        <p class="muted">Create an account or log in to save progress, appear on the leaderboard, and unlock your dashboard.</p>
+        <div id="authBox">
+          <div class="auth-tabs" id="authTabs">
+            <button type="button" class="auth-tab on" data-auth="login">Log In</button>
+            <button type="button" class="auth-tab" data-auth="signup">Create Account</button>
+          </div>
+          <div id="signupExtra">
+            <label class="field-label">Full name</label>
+            <input id="authName" type="text" placeholder="e.g. Ada Okafor" autocomplete="name">
+          </div>
+          <label class="field-label">Email</label>
+          <input id="authEmail" type="email" placeholder="you@email.com" autocomplete="email">
+          <label class="field-label">Password</label>
+          <input id="authPass" type="password" placeholder="At least 6 characters" autocomplete="current-password">
+          <button class="bp full" id="btnAuthPrimary" style="margin-top:12px">Log In</button>
+          <button class="bp" id="btnSignIn" hidden>Log In</button>
+          <button class="bo" id="btnSignUp" hidden>Sign Up</button>
+          <p class="muted" id="authMsg" style="margin-top:10px"></p>
+          <button type="button" class="linkish" id="btnResendVerify" style="margin-top:6px">Resend verification email</button>
+          <p class="muted" style="margin-top:8px;font-size:.8rem">By continuing you agree to practise responsibly. Premium preview access is free.</p>
+        </div>
+        <div id="userBox" hidden>
+          <div class="user-welcome">
+            <div class="lb-avatar" id="userAvatar">MS</div>
+            <div>
+              <p><strong id="userName">Student</strong></p>
+              <p class="muted" id="userEmail"></p>
+            </div>
+          </div>
+          <div class="stat-row tight">
+            <div class="stat"><div class="v" id="accAttempts">0</div><div class="l">Attempts</div></div>
+            <div class="stat"><div class="v" id="accAvg">0%</div><div class="l">Avg</div></div>
+            <div class="stat"><div class="v" id="accBest">0%</div><div class="l">Best</div></div>
+          </div>
+          <div class="row" style="margin-top:12px">
+            <button class="bo" id="btnSignOut">Sign out</button>
+            <button class="bp" id="btnSync">Sync progress</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Notifications</h2>
+        <label><input type="checkbox" id="nDaily"> Daily practice</label><br>
+        <label><input type="checkbox" id="nPrem"> Premium reminders</label><br>
+        <label><input type="checkbox" id="nExam"> Exam reminders</label>
+        <button class="bo" id="btnNotif" style="margin-top:8px">Enable browser notifications</button>
+      </div>
+    </div>
+
+    <!-- TUTOR -->
+    <div id="tutor" class="screen">
+      <div class="card">
+        <h2>Merit AI Tutor</h2>
+        <p class="muted" id="tutorQuota">Ask a WAEC/JAMB question.</p>
+        <textarea id="tutorInput" rows="4" placeholder="Type your question…"></textarea>
+        <select id="tutorSubject">
+          <option value="">Subject (optional)</option>
+          <option>MATHEMATICS</option><option>PHYSICS</option><option>CHEMISTRY</option>
+          <option>BIOLOGY</option><option>USE OF ENGLISH</option><option>ECONOMICS</option>
+          <option>GOVERNMENT</option><option>FINANCIAL ACCOUNTING</option>
+        </select>
+        <button class="bp full" id="btnTutorAsk">Ask Merit AI</button>
+      </div>
+      <div class="card" id="tutorOut" hidden>
+        <h2>Answer</h2>
+        <div id="tutorReply" class="tutor-reply"></div>
+      </div>
+      <div class="card">
+        <h2>AI Question Generator</h2>
+        <select id="genSubject"><option>MATHEMATICS</option><option>PHYSICS</option><option>CHEMISTRY</option><option>BIOLOGY</option></select>
+        <input id="genTopic" placeholder="Topic">
+        <div class="row">
+          <select id="genExam" style="flex:1"><option>JAMB</option><option>WAEC</option></select>
+          <select id="genCount" style="flex:1"><option>3</option><option>5</option><option>10</option></select>
+        </div>
+        <button class="bo full" id="btnGenerate">Generate questions</button>
+        <button class="bp full" id="btnVerifyGen" hidden style="margin-top:8px">Verify answers</button>
+        <p class="muted" id="genVerifyHint" hidden style="margin-top:8px;font-size:.8rem">
+          Verification re-checks each question with AI. It catches many errors but is not 100% proof — always spot-check maths yourself.
+        </p>
+        <div id="genVerifyReport" class="gen-verify-report" hidden></div>
+        <div id="genCards" class="gen-cards" hidden></div>
+        <details id="genJsonWrap" class="gen-json-wrap" hidden>
+          <summary>Show raw JSON</summary>
+          <pre id="genOut" class="gen-out"></pre>
+        </details>
+      </div>
+    </div>
+
+    <!-- SUPPORT -->
+    <div id="support" class="screen">
+      <div class="card"><h2>Help & Support</h2></div>
+      <div class="card faq">
+        <details><summary>Free vs Premium?</summary><p>Free plan: only 15 questions per test. Premium (₦2,000 one-time for 90 days) unlocks all 76,000 questions, longer tests, and AI tutor disabled in this preview.</p></details>
+        <details><summary>Does Premium cost anything?</summary><p>Premium preview access is designed for testing the full CBT experience without payment.</p></details>
+        <details><summary>Is Premium paid?</summary><p>Premium preview access is free.</p></details>
+        <details><summary>Leaderboard?</summary><p>Log in, complete tests, and your best scores can appear on the leaderboard.</p></details>
+        <details><summary>Refund policy</summary><p>Contact within 7 days with your payment reference.</p></details>
+      </div>
+      <div class="card">
+        <h2>Contact</h2>
+        <p class="muted">Email: <a href="mailto:lumeriqdesigns@gmail.com" id="supportEmail">lumeriqdesigns@gmail.com</a></p>
+        <p class="muted">WhatsApp: <a href="https://wa.me/2349031512760" target="_blank" rel="noopener" id="supportWa">+234 903 151 2760</a></p>
+        <div class="row" style="margin:10px 0">
+          <button type="button" class="bo" id="btnWhatsApp">Chat on WhatsApp</button>
+        </div>
+        <textarea id="contactMsg" rows="3" placeholder="Your message…"></textarea>
+        <button class="bp full" id="btnContact">Send via email</button>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- Mobile bottom nav -->
+<nav class="bottom-nav" aria-label="Main">
+  <button type="button" data-go="home" class="on"><span class="ic">🏠</span><span class="bn-label">Home</span></button>
+  <button type="button" data-go="test"><span class="ic">💻</span><span class="bn-label">Test</span></button>
+  <button type="button" data-go="analytics"><span class="ic">📊</span><span class="bn-label">Progress</span></button>
+  <button type="button" id="bnCalc" class="bn-calc" aria-label="Calculator"><span class="ic">🧮</span><span class="bn-label">Calc</span></button>
+  <button type="button" data-go="leaderboard"><span class="ic">🏆</span><span class="bn-label">Ranks</span></button>
+  <button type="button" data-go="account"><span class="ic">👤</span><span class="bn-label">Account</span></button>
+</nav>
+
+<button type="button" id="calcFab" class="calc-fab" title="Calculator" aria-label="Open calculator">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <rect x="4" y="2" width="16" height="20" rx="2"/>
+    <line x1="8" y1="6" x2="16" y2="6"/>
+    <line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/>
+    <line x1="8" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="16" y2="14"/>
+    <line x1="8" y1="18" x2="10" y2="18"/><line x1="14" y1="18" x2="16" y2="18"/>
+  </svg>
+</button>
+<div id="calcModal" class="calc-modal" hidden>
+  <div class="calc-sheet">
+    <div class="calc-head"><span>Calculator</span><button type="button" id="calcClose" class="calc-x">×</button></div>
+    <div class="calc-display" id="calcDisplay">0</div>
+    <div class="calc-keys">
+      <button data-k="C" class="ck muted">C</button>
+      <button data-k="(" class="ck muted">(</button>
+      <button data-k=")" class="ck muted">)</button>
+      <button data-k="/" class="ck op">÷</button>
+      <button data-k="7" class="ck">7</button>
+      <button data-k="8" class="ck">8</button>
+      <button data-k="9" class="ck">9</button>
+      <button data-k="*" class="ck op">×</button>
+      <button data-k="4" class="ck">4</button>
+      <button data-k="5" class="ck">5</button>
+      <button data-k="6" class="ck">6</button>
+      <button data-k="-" class="ck op">−</button>
+      <button data-k="1" class="ck">1</button>
+      <button data-k="2" class="ck">2</button>
+      <button data-k="3" class="ck">3</button>
+      <button data-k="+" class="ck op">+</button>
+      <button data-k="±" class="ck muted">±</button>
+      <button data-k="0" class="ck">0</button>
+      <button data-k="." class="ck">.</button>
+      <button data-k="=" class="ck eq">=</button>
+      <button data-k="sqrt" class="ck muted sci">√</button>
+      <button data-k="sq" class="ck muted sci">x²</button>
+      <button data-k="pct" class="ck muted sci">%</button>
+      <button data-k="bk" class="ck muted sci">⌫</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- Auth modal -->
+<div id="authModal" class="auth-modal" hidden>
+  <div class="auth-modal-card">
+    <button type="button" class="auth-modal-close" id="authModalClose">×</button>
+    <h2 id="authModalTitle">Log In</h2>
+    <p class="muted" id="authModalSub">Welcome back to MeritScholars</p>
+    <div id="modalSignupExtra" hidden>
+      <label class="field-label">Full name</label>
+      <input id="modalName" type="text" placeholder="e.g. Ada Okafor">
+    </div>
+    <label class="field-label">Email</label>
+    <input id="modalEmail" type="email" placeholder="you@email.com">
+    <label class="field-label">Password</label>
+    <input id="modalPass" type="password" placeholder="At least 6 characters">
+    <button class="bp full" id="btnModalAuth" style="margin-top:12px">Log In</button>
+    <p class="muted" id="modalAuthMsg" style="margin-top:10px"></p>
+    <button type="button" class="linkish" id="btnResendVerifyModal" style="margin-top:6px">Resend verification email</button>
+    <p class="muted" style="margin-top:8px;font-size:.8rem">
+      <button type="button" class="linkish" id="authSwitchMode">Need an account? Create one</button>
+    </p>
+  </div>
+</div>
+
+<script src="questions-free.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

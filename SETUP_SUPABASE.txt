@@ -1,0 +1,5 @@
+MeritScholars Free Preview
+
+This build uses the chunked bank under bank/. Premium is a free preview unlock. No Paystack, Groq, or payment API key is required.
+
+Deploy the project root to Vercel or any static host. Do not add API keys to frontend files.
